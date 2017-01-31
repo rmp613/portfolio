@@ -1,0 +1,25 @@
+{
+    "name": "heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha test ./tests/*-spec.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "chai": "^3.5.0",
+        "chai-http": "^3.0.0",
+        "express": "^4.14.0",
+        "jquery": "^3.1.1",
+        "mocha": "^3.2.0",
+        "sinon": "^1.17.7"
+    },
+    "devDependencies": {
+        "mocha": "^3.2.0",
+        "supertest": "^2.0.1"
+    }
+}
